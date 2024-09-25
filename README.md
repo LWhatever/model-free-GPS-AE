@@ -68,6 +68,6 @@ The workflow in the Jupyter Notebook includes the following steps:
 
 ## Acknowledgment
 
-This project extensively leverages the functionalities of the following relevant projects:
+This project has been vastly inspired by the following open-source projects and incorporates some of their functional components:
 
 [Rassibassi/claude: End-to-end learning of optical communication systems](https://github.com/Rassibassi/claude)
