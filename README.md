@@ -1,5 +1,7 @@
 # Model-Free End-to-End Deep Learning of Joint Geometric and Probabilistic Shaping for Optical Fiber Communication in IM/DD System
 
+**2025-03-17 Reminder:** We found it's better to seperate the BP process of the Equalizer and the other trainable blocks in the GPS-AE. In other word, in each epoch using two optimizer to update the gradient with the Eq_loss and GMI_Loss so that the equalizer is only influenced by the Eq_Loss during the BP.  
+
 ## Overview
 
 This Jupyter Notebook is designed to implement and train a model-free autoencoder that facilitates the concurrent optimization of both geometric and probabilistic constellation shaping in communication systems. The notebook includes various steps such as pre-training, loading channel parameters, defining transceiver models, and training an equalizer. Below is a brief description of the key files and their roles in this project.
