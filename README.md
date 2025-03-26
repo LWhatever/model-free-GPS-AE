@@ -1,6 +1,6 @@
 # Model-Free End-to-End Deep Learning of Joint Geometric and Probabilistic Shaping for Optical Fiber Communication in IM/DD System
 
-**2025-03-17 Reminder:** We found it's better to seperate the BP process of the Equalizer and the other trainable blocks in the GPS-AE. In other word, in each epoch using two optimizer to update the gradient with the Eq_loss and GMI_Loss so that the equalizer is only influenced by the Eq_Loss during the BP.  
+**2025-03-17 Update:** We found it's better to seperate the BP process of the Equalizer and the other trainable blocks in the GPS-AE. In other word, in each epoch using two optimizer to update the gradient with the Eq_loss and GMI_Loss so that the equalizer is only influenced by the Eq_Loss during the BP.  
 
 ## Overview
 
